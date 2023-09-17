@@ -1,0 +1,159 @@
+*{
+    margin: 0; 
+}
+
+header{
+    background-color: #1f2937;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav{
+    display: flex;
+    margin-left: 10em;
+}
+.header_logo{
+    color: white;
+}
+.link_header{
+    list-style: none;
+    padding-top: 5px;
+    margin-left: 40em;
+    display: inline-flex;
+}
+.link_header li {
+    padding-left: 15px;
+}
+li a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+#section_one{
+    background-color: #1f2937;
+    padding-top: 8em;
+    padding-bottom: 100px;
+    padding-left: 12em;
+    color: white;
+}
+
+.main_page{
+    display: inline-flex;
+}
+
+.main_page div {
+    margin-right: 50px;
+    width: 500px;
+
+}
+
+.title_page{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+.text_info{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button_text{
+    background-color: #3882f6;
+    border: 1px black solid;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: #e5e7eb;
+}
+
+.tempat_foto{
+    margin-left: 100px;
+    background-color: #b6c3d6;
+    height: 15em;
+    width: 30em;
+}
+
+.tempat_foto p {
+    margin-top:6em;
+    margin-left: 11em;
+}
+
+#section_two {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.title_two{
+    text-align: center;
+    margin-bottom: 30px ;
+}
+.parent_box{
+    display: inline-flex;
+    width: 900px;
+}
+.parent_box div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.kotak{
+    width: 90px;
+    height: 110px;
+    border-radius: 10px;
+    border: 2px #3882f6 solid;
+    margin-bottom: 10px;
+}
+#section_there{
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 200px;
+    background-color: #e5e7eb;
+    text-align: left;
+}
+.qoute{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 700px;
+    margin-left: 350px;
+}
+strong{
+    float: right;
+    margin-right: 400px;
+}
+
+#section_last{
+    margin: 100px 80px;
+    border: 1px #3882f6 solid;
+    background-color: #3882f6;
+    padding: 30px 80px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    display: flex;
+    height: 100px;
+}
+.text_cta{
+    margin-top: 20px;
+}
+.button_cta  button{
+    margin-left: 600px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: 1px #e5e7eb solid;
+    color: #e5e7eb;
+}
+
+.footer{
+    height: 60px;
+    background-color: #1f2937;
+    text-align: center;
+}
+
+.text_footer{
+    color: #e5e7eb;
+    padding-top: 15px;
+}
